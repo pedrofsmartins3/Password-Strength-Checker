@@ -1,0 +1,92 @@
+body {
+    margin: 2em;
+    padding: 0;
+    background-color: rgb(18, 18, 18);
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    font-weight: bold;
+    background-color: rgb(36, 34, 34);
+    padding: 2em;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(36, 35, 35);
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0005);
+}
+
+h1 {
+    font-size: 1.4rem;
+    font-weight: 900;
+    color: rgb(92, 88, 88);
+    margin-bottom: 1em;
+}
+
+.input-div {
+    display: flex;
+    position: relative;
+    height: 40px;
+    margin-bottom: 2em;
+}
+
+.pass-input {
+    width: 100%;
+    height: 100%;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 1em;
+    background-color: rgb(18, 18, 18);
+    color: rgb(92, 88, 88)
+}
+
+.pass-input:hover {
+    box-shadow: 2px 1px 10px black;
+}
+
+.pass-input:focus {
+    box-shadow: 2px 1px 10px black;
+    outline: none;
+}
+
+.show {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    color: rgb(92, 88, 88);
+    cursor: pointer;
+    display: none;
+}
+
+.container-check {
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 0.1em;
+    border-radius: 10px;
+    margin-top: 0.4em;
+}
+
+.tips {
+    font-size: 0.8rem;
+    color: rgb(92, 88, 88)
+}
+
+.tips>h3 {
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}
+
+.tips>p {
+    margin: 0.4em;
+}
